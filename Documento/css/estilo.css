@@ -1,0 +1,95 @@
+/**{
+    margin:0;
+}*/
+
+body{
+    margin: 0;
+}
+.menu{
+    background-color: #eee2e2;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 20px;
+}
+.imagem-perfil{
+    width: 150px;
+    border-radius: 50%
+    
+
+}
+.navegacao-list-item, a{
+    display: inline;
+    text-decoration: none;
+    margin: 0 5px;/* primeiro valor (em cima e embaixo) segundo valor (esquerda e direita)| valores no sentido horário começando do topo */
+    color: #8f6b6b;
+}
+.navegacao-list-item, a:hover{
+   color: #000000;
+   
+}
+.navegacao{
+    margin-top: 20px;
+}
+.header h2{
+    margin: 0px;
+}
+.header h1{
+    margin-bottom: 0;
+}
+main{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+section{
+    display: flex;
+    border-bottom: 1px solid;
+    border-color:#dfc7c7;
+    padding: 2%;
+
+}
+h3{
+    /*width: 35%;*/
+    min-width: 220px;
+    margin-right: 50px;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    font-family: 'Slabo 27px', serif;
+}
+.divisao{
+ text-align: left;
+}
+h4{
+margin-bottom: 3;
+margin-top: 6px;
+font-family: 'Slabo 27px', serif;
+}
+h5{
+margin-bottom: 6px;
+margin-top: 2px;
+font-family: 'Slabo 27px', serif;
+}
+p{
+margin-top: 4px;
+font-family: 'Slabo 27px', serif;
+}
+footer{
+    background-color: #eee2e2;
+    text-align: center;
+    padding: 20px;
+    
+}
+.redes{
+    width: 15px;
+    text-align: center;
+    padding: 0.5px;
+}

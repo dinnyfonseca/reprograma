@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*body{
+    margin: 0;
+    padding: 0;
+    
+}*/
+
+.menu-topo{
+    background-color: rosybrown;
+    width: 100%;
+    height: 50px;
+    position: fixed;/*static não lê referências*/
+    top:0;
+    /*
+    left: 0;*/
+    /*margin-left: 50px;
+    margin-top: 10px;*/
+    /*botton*/
+    /*left*/
+    /*right*/
+    
+}
+.texto-principal{
+    padding-top: 50px;
+}
+.principal{
+    width: 50%;
+    /*height: 150px;*/
+    background-color: #7A5B5B;
+    padding: 50px;/*box-sizing: content-box; soma altura mais padding*/
+   /* box-sizing: border-box; ---Desconta o padding da altura*/
+    
+    
+}
+/*#filha-maior{
+    width: 50%;
+    background-color: white;
+} NÃO UTILIZAR!! Dificulta a manutenção*/
+
+.box{
+    background-color: #322525;
+}
+
+.principal-filha{
+    width: 30%;
+    height:50px; /*height: 50%; porcentagem de alguma coisa/ depende da referencia do elemento mãe*/
+    background-color: #4E3A3A;
+    margin-top: 50px;
+    /*margin-left: 30px;*/ 
+    
+}

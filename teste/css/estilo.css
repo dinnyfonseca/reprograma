@@ -1,0 +1,49 @@
+.box{
+    border: 1px solid;
+    margin: 5px;
+
+}
+.display-box{
+    width: 150px;
+    height: 150px;
+
+}
+.display-box:first-child{
+    background-color: #cc0000;
+}
+.display-box:nth-child(2){
+    background-color: #330000;
+}
+.display-box:nth-child(3){
+    background-color: #ff4d4d;
+}
+.display-box:nth-child(4){
+    background-color: #330000;
+}
+.display-box:last-child{
+    background-color: #ff0000;
+}
+.box-um > div{
+    display: inline;
+}
+.box-dois > div{
+    display: block;
+}
+.box-tres > div{
+    display: inline-block;
+}
+.box-quatro > div{
+    display: none;
+}
+.box-cinco {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;/*Ajusta o espaço dentro do container*/
+    align-items: center;/*Alinha verticalmente*/
+    flex-direction: row-reverse;/*Define a ordem, e se vai ser em coluna ou linha*/
+    flex-wrap: wrap-reverse;/*wrap define se o conteúdo vai ser ajustado ou multi-linha*/
+}
+.box-seis {
+    display: inline-flex;
+
+}
